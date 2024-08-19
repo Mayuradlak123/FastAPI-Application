@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import { GoogleGenerativeAI } from '@google/generative-ai'
-import { GEN_AI_KEY } from './config'
 import './index.css'
 import {
   TextField,
