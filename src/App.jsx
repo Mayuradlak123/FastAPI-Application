@@ -15,7 +15,7 @@ import {
   ListItem,
   ListItemText
 } from '@mui/material';
-const genAI = new GoogleGenerativeAI(GEN_AI_KEY);
+const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEN_AI_KEY);
 
 function App() {
   const [answer, setAnswer] = useState("");
